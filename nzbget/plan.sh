@@ -11,12 +11,14 @@ pkg_deps=(
   core/glibc
   core/openssl
   core/libxml2
+  core/ncurses
+  core/zlib
+)
+pkg_build_deps=(
   core/gcc
   core/gcc-libs
   core/make
-  core/ncurses
-)
-pkg_build_deps=(
+  core/pkg-config
 )
 
 # Optional.
@@ -202,7 +204,7 @@ do_build() {
   ./configure \
     --prefix=$pkg_prefix \
     --enable-debug \
-    --with-tlslib=openssl && \
+    --with-tlslib=OpenSSL && \
     make
 }
 
