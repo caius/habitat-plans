@@ -1,0 +1,7 @@
+--- daemon/main/nzbget.h	2020-04-23 00:00:01.000000000 +0000
++++ daemon/main/nzbget.h	2020-04-23 00:00:02.000000000 +0000
+@@ -261,4 +261,3 @@
+ #include <openssl/pem.h>
+ #include <openssl/x509v3.h>
+-#include <openssl/comp.h>
+ #endif /* HAVE_OPENSSL */
