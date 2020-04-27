@@ -1,6 +1,6 @@
-# Caius' home-plans
+# Caius' habitat/plans
 
-This builds on top of habitat to package up applications for Caius' homelab.
+Caius' habitat plans. Available at habitat builder origin "caius".
 
 ## License
 
